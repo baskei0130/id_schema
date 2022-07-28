@@ -68,7 +68,7 @@ func (l Length) MarshalGQLContext(ctx context.Context, w io.Writer) error {
 }
 
 // ParseLength parses a length measurement string with unit on the end (eg: "12.45in")
-func ParseLength(string) (Length, error)
+func ParseLength(string) (Length, error) {}
 
 // ParseLength formats the string using a value in the context to specify format
-func (l Length) FormatContext(ctx context.Context) (string, error)
+func (l Length) FormatContext(ctx context.Context) (string, error) {}
